@@ -244,14 +244,12 @@
 
 .person_name_feynman {
   top: -30px;
-  right: 319px;
-  bottom: 0px;
+  left: 319px;
 }
 
 .person_name_burbidge {
   top: 96px;
   right: 125px;
-  bottom: 0px;
 }
 
 .person_name_cannon {
@@ -267,7 +265,6 @@
 .person_name_tarter {
   top: 79px;
   left: 159px;
-  bottom: 0px;
 }
 
 .person__image {
