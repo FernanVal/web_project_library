@@ -344,22 +344,22 @@
   font-size: 16px;
   line-height: 20px;
   color: #fff;
+  padding: 60px 80px 60px 80px;
 }
 
 .footer__columns {
-  padding: 60px 80px 60px 80px;
   display: flex;
 }
 
 .footer__column_content_hours {
-  margin-right: 80px;
+  margin-left: auto;
 }
 
 .footer__column_content_social {
+  margin-left: 80px;
 }
 
 .footer__logo {
-  margin-right: auto;
 }
 
 .footer__column-heading {
@@ -382,6 +382,7 @@
 
 .footer__column-link {
   color: white;
+  display: flex;
   text-decoration: none;
 }
 
