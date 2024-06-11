@@ -309,6 +309,7 @@
   margin: 100px 0 0;
   display: flex;
   justify-content: center;
+  column-gap: 40px;
   /* Agrega estilos */
 }
 
@@ -316,7 +317,6 @@
   justify-content: center;
   flex-basis: 220px;
   flex-direction: column;
-  margin-right: 40px;
   /* Agrega estilos */
 }
 
@@ -360,6 +360,8 @@
 }
 
 .footer__logo {
+  width: 58px;
+  height: 80px;
 }
 
 .footer__column-heading {
@@ -384,11 +386,13 @@
   color: white;
   display: flex;
   text-decoration: none;
+  column-gap: 10px;
+  align-items: center;
 }
 
 .footer__social-icon {
-  display: flex;
-  margin-right: 10px;
+  width: 16px;
+  height: 16px;
 }
 
 .footer__copyright {
