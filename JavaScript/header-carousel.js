@@ -2,7 +2,7 @@ class HeaderCarousel {
   constructor() {
     this.images = document.querySelectorAll(".header__image");
     this.currentIndex = 0;
-    this.intervalTime = 20000; // 20 segundos
+    this.intervalTime = 5000; // 20 segundos
     this.intervalId = null;
 
     this.init();
