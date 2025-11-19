@@ -3,10 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Biblioteca Triple Peaks</title>
-    <link rel="shortcut icon" href="favicon.ico" />
+    <title>Aniversario ITC</title>
+    <link rel="shortcut icon" href="./ITC_LOGO_NOSVG.ico" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <script src="./JavaScript/header-carousel.js" defer></script>
   </head>
 
   <body>
@@ -14,124 +15,295 @@
       <header class="header">
         <nav class="nav">
           <img
-            src="./images/logo.svg"
-            alt="Logotipo de la Biblioteca Triple Peaks"
+            src="./images/ITC_LOGO_SVG.svg"
+            alt="Logotipo del ITC"
             class="nav__logo"
           />
           <ul class="nav__links">
+            <li><a class="nav__link" href="#celebramos">Celebremos</a></li>
             <li>
-              <a class="nav__link" href="#staff"
-                >Los preferidos de nuestro staff</a
-              >
+              <a class="nav__link" href="#staff">Ponencias</a>
             </li>
+            <li><a class="nav__link" href="#events">Talleres</a></li>
             <li>
-              <a class="nav__link" href="#events">Eventos</a>
-            </li>
-            <li>
-              <a class="nav__link" href="#membership">Conviértete en miembro</a>
-            </li>
-            <li>
-              <a class="nav__link" href="#footer">Contactos</a>
+              <a class="nav__link" href="#membership">Unete al capitulo!</a>
             </li>
           </ul>
         </nav>
-        <div class="header__content">
+
+        <div class="header__content" id="celebramos">
           <div>
             <h1 class="header__title">
-              Hola, esta es la biblioteca Triple Peaks
+              Celebra con nosotros 25 años de innovación tecnológica!
             </h1>
-            <p class="header__description">
-              ¡Nos complace abrir las puertas de nuestra biblioteca a todos! Ven
-              y amplía tus conocimientos sobre desarrollo, o simplemente ven a
-              trabajar o estudiar con nosotros. ¡Este es un lugar genial para
-              estudiantes!
-            </p>
+            <p class="header__description">-Pendiente de edición-</p>
           </div>
-          <img
-            src="./images/inside_the_library.png"
-            alt="Ilustración 'Dentro de la biblioteca'"
-            class="header__image"
-          />
+
+          <!-- Carrusel de imágenes sin indicadores -->
+          <div class="header__carousel">
+            <div class="header__carousel-track">
+              <img
+                src="./images/inside_the_library.png"
+                alt="Imagen 1 del aniversario ITC"
+                class="header__image header__image-active"
+              />
+              <img
+                src="./images/header_image2.jpg"
+                alt="Imagen 2 del aniversario ITC"
+                class="header__image"
+              />
+              <img
+                src="./images/header_image3.jpg"
+                alt="Imagen 3 del aniversario ITC"
+                class="header__image"
+              />
+              <img
+                src="./images/header_image4.jpg"
+                alt="Imagen 4 del aniversario ITC"
+                class="header__image"
+              />
+            </div>
+          </div>
         </div>
+
         <div class="header__footer">
           <p class="header__address">Triple Peaks, 200 Success Avenue</p>
         </div>
       </header>
       <main class="content">
         <section class="staff" id="staff">
-          <h2 class="staff__title">Los preferidos de nuestro staff</h2>
-          <p class="staff__subtitle">Que nuestros lectores y lectoras aman</p>
+          <h2 class="staff__title">Únete a las conferencias - Día Lunes</h2>
+          <p class="staff__subtitle">
+            Estamos seguros de que alguna aportará a tu crecimiento personal y
+            profesional
+          </p>
+
           <ul class="staff__cards">
             <li class="card">
               <div class="card__content">
-                <h3 class="card__title">Introducción a los algoritmos</h3>
-                <p class="card__text">
-                  El nombre de este libro se explica por sí solo; ¡es una buena
-                  Introducción a los algoritmos! Introducción a los algoritmos,
-                  o CLRS, en referencia a los apellidos de los autores,
-                  profundiza y abarca una serie de algoritmos a lo largo de
-                  varios capítulos independientes.
-                </p>
-                <p class="card__footer">
-                  Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest,
-                  Clifford Stein
-                </p>
+                <div class="card__header">
+                  <h3 class="card__title">
+                    Inhibidores Verdes Como protección a la Corrosión
+                  </h3>
+                  <span class="card__badge">Presencial</span>
+                </div>
+                <div class="card__info">
+                  <div class="card__item">
+                    <span class="card__icon">👨‍🏫</span>
+                    <p class="card__text">
+                      <strong>Ponente:</strong> Dr. Enrique de Jesús Moreno
+                      Carpintero
+                    </p>
+                  </div>
+                  <div class="card__item">
+                    <span class="card__icon">📍</span>
+                    <p class="card__text">
+                      <strong>Lugar:</strong> Mini Cine - Edificio H
+                    </p>
+                  </div>
+                  <div class="card__item">
+                    <span class="card__icon">⏰</span>
+                    <p class="card__text">
+                      <strong>Horario:</strong> 10:00 AM - 11:00 AM
+                    </p>
+                  </div>
+                </div>
+                <div class="card__description">
+                  <p>
+                    Conferencia especializada en métodos de protección contra
+                    corrosión utilizando inhibidores verdes y sostenibles.
+                  </p>
+                </div>
               </div>
             </li>
 
             <li class="card">
               <div class="card__content">
-                <h3 class="card__title">
-                  La estructura e interpretación de los programas
-                  computacionales (SICP)
-                </h3>
-                <p class="card__text">
-                  Este es uno de los mejores libros para aprender los conceptos
-                  básicos de la programación. Incluido por el MIT en uno de sus
-                  cursos básicos de programación, SICP es un libro de
-                  programación de carácter general que utiliza Scheme para
-                  ilustrar diversos conceptos de programación.
-                </p>
-                <p class="card__footer">
-                  Harold Abelson, Gerald Jay Sussman, Julie Sussman
-                </p>
+                <div class="card__header">
+                  <h3 class="card__title">
+                    Técnicas de mantenimiento predictivo en equipos industriales
+                  </h3>
+                  <span class="card__badge">Presencial</span>
+                </div>
+                <div class="card__info">
+                  <div class="card__item">
+                    <span class="card__icon">👩‍🏫</span>
+                    <p class="card__text">
+                      <strong>Ponente:</strong> Manuel Salgado Rodríguez
+                    </p>
+                  </div>
+                  <div class="card__item">
+                    <span class="card__icon">📍</span>
+                    <p class="card__text">
+                      <strong>Lugar:</strong> Mini Cine - Edificio H
+                    </p>
+                  </div>
+                  <div class="card__item">
+                    <span class="card__icon">⏰</span>
+                    <p class="card__text">
+                      <strong>Horario:</strong> 11:00 AM - 12:00 PM
+                    </p>
+                  </div>
+                </div>
+                <div class="card__description">
+                  <p>
+                    Exploración de aplicaciones de IA en procesos industriales y
+                    manufactura inteligente.
+                  </p>
+                </div>
               </div>
             </li>
 
             <li class="card">
               <div class="card__content">
-                <h3 class="card__title">
-                  El programador limpio: un código de conducta para
-                  programadores profesionales
-                </h3>
-                <p class="card__text">
-                  Compilado por el experimentado ingeniero de software y autor
-                  Robert C. Martin (también conocido como "Tío Bob"), este libro
-                  abarca las técnicas y herramientas de la verdadera artesanía
-                  de software. Explica cómo escribir código limpio y muestra
-                  cómo cultivar la actitud de un programador experto y
-                  profesional.
-                </p>
-                <p class="card__footer">Steve McConnell</p>
+                <div class="card__header">
+                  <h3 class="card__title">Nuevas Tecnologías Automotrices</h3>
+                  <span class="card__badge">Presencial</span>
+                </div>
+                <div class="card__info">
+                  <div class="card__item">
+                    <span class="card__icon">👩‍🏫</span>
+                    <p class="card__text">
+                      <strong>Ponente:</strong> José Gaudencio Ayala Rangel
+                    </p>
+                  </div>
+                  <div class="card__item">
+                    <span class="card__icon">📍</span>
+                    <p class="card__text">
+                      <strong>Lugar:</strong> Mini Cine - Edificio H
+                    </p>
+                  </div>
+                  <div class="card__item">
+                    <span class="card__icon">⏰</span>
+                    <p class="card__text">
+                      <strong>Horario:</strong> 12:00 PM - 13:00 PM
+                    </p>
+                  </div>
+                </div>
+                <div class="card__description">
+                  <p>
+                    Exploración de aplicaciones de IA en procesos industriales y
+                    manufactura inteligente.
+                  </p>
+                </div>
               </div>
             </li>
 
             <li class="card">
               <div class="card__content">
-                <h3 class="card__title">
-                  Código completo: un manual práctico de construcción de
-                  software
-                </h3>
-                <p class="card__text">
-                  ¿Te gustaría saber cómo escribir un buen código al margen de
-                  la arquitectura del lenguaje de programación que hayas
-                  elegido? Después, podrías leer Code Complete: A Practical
-                  Handbook of Software Construction ("Código completo: un
-                  práctico manual sobre creación de software"). Este aborda de
-                  manera exhaustiva todo lo relacionado con la buena estructura
-                  de código.
-                </p>
-                <p class="card__footer">Steve McConnell</p>
+                <div class="card__header">
+                  <h3 class="card__title">
+                    Máquinas Eléctricas y sus Aplicaciones en la Era de la
+                    Automatización
+                  </h3>
+                  <span class="card__badge card__badge-virtual"
+                    >Presencial</span
+                  >
+                </div>
+                <div class="card__info">
+                  <div class="card__item">
+                    <span class="card__icon">👩‍🏫</span>
+                    <p class="card__text">
+                      <strong>Ponente:</strong> Dr. Gerardo Vicente Guerrero
+                      Ramírez
+                    </p>
+                  </div>
+                  <div class="card__item">
+                    <span class="card__icon">📍</span>
+                    <p class="card__text">
+                      <strong>Lugar:</strong> Sala Zapata - Edificio H
+                    </p>
+                  </div>
+                  <div class="card__item">
+                    <span class="card__icon">⏰</span>
+                    <p class="card__text">
+                      <strong>Horario:</strong> 12:00 PM - 13:00 PM
+                    </p>
+                  </div>
+                </div>
+                <div class="card__description">
+                  <p>
+                    Exploración de aplicaciones de IA en procesos industriales y
+                    manufactura inteligente.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <div class="card__header">
+                  <h3 class="card__title">
+                    Microrredes y Generación Distribuida Basada en la
+                    Integración de Energía Solar
+                  </h3>
+                  <span class="card__badge card__badge-virtual"
+                    >Presencial</span
+                  >
+                </div>
+                <div class="card__info">
+                  <div class="card__item">
+                    <span class="card__icon">👩‍🏫</span>
+                    <p class="card__text">
+                      <strong>Ponente:</strong> M.C. Alejandro Pineda Uribe
+                    </p>
+                  </div>
+                  <div class="card__item">
+                    <span class="card__icon">📍</span>
+                    <p class="card__text">
+                      <strong>Lugar:</strong> Mini Cine - Edificio H
+                    </p>
+                  </div>
+                  <div class="card__item">
+                    <span class="card__icon">⏰</span>
+                    <p class="card__text">
+                      <strong>Horario:</strong> 13:00 PM - 14:00 PM
+                    </p>
+                  </div>
+                </div>
+                <div class="card__description">
+                  <p>
+                    Exploración de aplicaciones de IA en procesos industriales y
+                    manufactura inteligente.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <div class="card__header">
+                  <h3 class="card__title">- Por Definir -</h3>
+                  <span class="card__badge card__badge-virtual"
+                    >Presencial</span
+                  >
+                </div>
+                <div class="card__info">
+                  <div class="card__item">
+                    <span class="card__icon">👩‍🏫</span>
+                    <p class="card__text">
+                      <strong>Ponente:</strong> Dr. Juan Reyes Reyes
+                    </p>
+                  </div>
+                  <div class="card__item">
+                    <span class="card__icon">📍</span>
+                    <p class="card__text">
+                      <strong>Lugar:</strong> Sala Zapata - Edificio H
+                    </p>
+                  </div>
+                  <div class="card__item">
+                    <span class="card__icon">⏰</span>
+                    <p class="card__text">
+                      <strong>Horario:</strong> 13:00 PM - 14:00 PM
+                    </p>
+                  </div>
+                </div>
+                <div class="card__description">
+                  <p>
+                    Exploración de aplicaciones de IA en procesos industriales y
+                    manufactura inteligente.
+                  </p>
+                </div>
               </div>
             </li>
           </ul>
