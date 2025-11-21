@@ -63,7 +63,7 @@
 }
 
 .header__description {
-  max-width: 515px;
+  max-width: 630px;
   font-size: 20px;
   line-height: 30px;
   margin-top: 32px;
@@ -597,7 +597,7 @@
 }
 
 .footer__logo {
-  width: 80px;
+  width: 100px;
   height: 90px;
 }
 
