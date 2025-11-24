@@ -60,6 +60,8 @@
   line-height: 76px;
   font-weight: 500;
   margin-top: 55px;
+  color: #057bf2;
+  font-weight: 900;
 }
 
 .header__description {
@@ -67,6 +69,9 @@
   font-size: 20px;
   line-height: 30px;
   margin-top: 32px;
+  color: #28a745;
+  font-weight: 700;
+  text-align: justify;
 }
 
 .header__footer {
@@ -198,7 +203,7 @@
   line-height: 1.4;
   font-weight: 700;
   margin: 0;
-  color: #2c3e50;
+  color: #152636;
   flex: 1;
 }
 
@@ -237,7 +242,7 @@
   margin: 0;
   font-size: 14px;
   line-height: 1.5;
-  color: #555;
+  color: #1a1919;
 }
 
 .card__description {
@@ -250,8 +255,9 @@
   margin: 0;
   font-size: 14px;
   line-height: 1.5;
-  color: #666;
+  color: #000000;
   font-style: italic;
+  font-weight: 500;
 }
 
 /* Responsive */
